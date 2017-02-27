@@ -1,0 +1,5 @@
+AddDefaultCharset UTF-8
+
+RewriteEngine On
+RewriteCond %{HTTPS} =on 
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [QSA,L]

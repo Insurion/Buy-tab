@@ -1,0 +1,40 @@
+@font-face {
+   font-family: PFDinTextPro; 
+   src: url('./font/PFDinTextPro-Light.ttf');
+}
+
+body {
+	font-family: PFDinTextPro,arial,"lucida grande",tahoma,verdana,sans-serif
+}
+
+.div1 {
+	background: #41BAAE;
+	color: #fff;
+	text-align: center;
+	font-size: 2em;
+	padding: 2em;
+}
+
+.div2 {
+	background: #4FADE2;
+	color: #fff;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 1em;
+}
+
+.div3 {
+	background: #fff;
+	color: #000;
+	text-align: center;
+	font-size: 1em;
+	padding: .5em;
+}
+
+.div-err {
+	background: #ff5555;
+	color: #fff;
+	text-align: center;
+	font-size: 2em;
+	padding: 2em;
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Insurion</title>
+</head>
+<script>
+function click(){
+	alert('click');
+}
+</script>
+<body class="ui-mobile-viewport ui-overlay-a">
+  	<span>Тест оплаты</span>
+  	<form method="POST"  class="application"  accept-charset="UTF-8" action="https://partner.rficb.ru/alba/input/">
+		<input type="hidden" name="key" value="JHdLq9Cn5QfQwxzTos4mdxSNSNcuBf286Gp4DBJDpEs=" />
+		<input type="hidden" name="cost" value="100" />
+		<input type="hidden" name="name" value="qqqq" />
+		<input type="hidden" name="default_email" value="" />
+		<input type="hidden" name="order_id" value="0" />
+		<input type="image" id="a1lite_button" style="border: 0;" src="https://partner.rficb.ru/gui/images/a1lite_buttons/button_small.png" value="Оплатить" />
+	</form>
+	<form method="POST" id="tst" class="application"  accept-charset="UTF-8" action="http://85.141.222.43:8888/insure/rfi">
+		<input type="hidden" name="key" value="JHdLq9Cn5QfQwxzTos4mdxSNSNcuBf286Gp4DBJDpEs=" />
+		<input type="hidden" name="cost" value="100" />
+		<input type="hidden" name="name" value="qqqq" />
+		<input type="hidden" name="default_email" value="" />
+		<input type="hidden" name="order_id" value="0" />
+		<input type="submit" name="btnpost" value="послать ответ"/>
+	</form>
+</body>
+</html>
